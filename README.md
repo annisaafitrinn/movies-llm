@@ -1,10 +1,10 @@
-# 🎬 Movie Recommendation System using Embeddings & LLMs
+# 🎬 Movie Recommendation System
 
 Welcome to movie recommender system! This project is part of my MLOps learning journey. It combines semantic search, modern embedding models, and large language models to provide intelligent and personalized movie suggestions. Built for scalability and deployed on cloud infrastructure.
 
 ---
 
-## 📚 Background
+## Background
 
 This project was developed after completing a **Machine Learning Ops course on Udemy**.
 
@@ -16,7 +16,7 @@ This project was developed after completing a **Machine Learning Ops course on U
 
 ---
 
-## ✨ Project Highlights
+## Project Highlights
 
 - **Semantic Embeddings**:
   - Movie titles and synopses are embedded using [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (SBERT).
@@ -29,7 +29,7 @@ This project was developed after completing a **Machine Learning Ops course on U
 
 ---
 
-## ⚠️ Important Note
+## Important Note
 
 Due to [GitHub’s file size restrictions](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github):
 
@@ -40,7 +40,7 @@ You’ll need to recreate these locally by running the preprocessing pipeline.
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Preprocessing**:
    - Merges movie data across genres.
