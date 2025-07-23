@@ -12,7 +12,7 @@ def main():
     try:
         logger.info("Starting to builf pipeline.")
 
-        loader = AnimeDataLoader("data/anime_with_synopsis.csv", "data/anime_updated.csv")
+        loader = AnimeDataLoader("data/movies.csv", "data/movie_updated.csv")
         processed_csv = loader.load_and_process()
 
         logger.info("Data loaded and processed.")
