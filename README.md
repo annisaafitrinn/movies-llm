@@ -68,21 +68,6 @@ You’ll need to recreate these locally by running the preprocessing pipeline.
 | Deployment       | Docker, Kubernetes              |
 | Cloud            | Google Cloud Platform (GCP)     |
 
----
-
-## 📁 Project Structure
-movies_llm/
-├── chroma_db/ # Vector store (excluded from Git)
-├── data/ # Raw and preprocessed data (excluded)
-├── src/ # Core recommendation logic
-├── app/ # Streamlit UI and endpoints
-├── pipeline/ # Preprocessing and embeddings
-├── config/ # LLM & DB config
-├── utils/ # Helper functions
-├── Dockerfile # Container definition
-├── llmops-k8s.yaml # K8s deployment YAML
-├── requirements.txt # Python dependencies
-└── setup.py # Project setup
 
 
 
